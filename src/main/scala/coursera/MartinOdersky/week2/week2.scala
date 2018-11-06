@@ -79,6 +79,7 @@ object week2 {
   def sumClean(f: Int => Int)(a: Int, b: Int): Int =
     if (a > b) 0 else f(a) + sumClean(f)(a + 1, b)
 
-    
+
+
 
 }
